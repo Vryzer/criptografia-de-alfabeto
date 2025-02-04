@@ -1,11 +1,10 @@
 # Nome do Projeto 🚀
 
-Descrição simples e clara do que o projeto faz. Exemplo:
-> "Um programa que converte textos para uma linguagem criptografada personalizada usando imagens."
+> Um programa que converte textos para uma linguagem criptografada personalizada usando imagens. O código já vem com a pasta "letras", contendo exemplos de imagens para servir como símbolo de cada letra além do PNG "texto_criptografado.png" como exemplo de output. O intuito é o usuário escolher os próprios símbolos e adicionar no lugar.
 
 ---
 
-## 📚 Funcionalidades
+## 📚 Aprendizados
 - Criação de criptografias personalizadas para cada letra.
 - Exportação de mensagens criptografadas em PNG.
 - Fácil personalização das imagens usadas.
@@ -14,41 +13,18 @@ Descrição simples e clara do que o projeto faz. Exemplo:
 
 ## 💻 Como Usar
 ### Requisitos
-- Python 3.10+
+- Python
 - Biblioteca Pillow (`pip install Pillow`)
-
-### Passo a Passo
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seuusuario/seuprojeto.git
-    ```
-2. Navegue até o diretório:
-    ```bash
-    cd seuprojeto
-    ```
-3. Execute o script principal:
-    ```bash
-    python main.py
-    ```
 
 ---
 
 ## ⚠️ Notas
-- Certifique-se de colocar as imagens criptográficas na pasta correta (`letras/`).
-
----
-
-## 🛠 Tecnologias
-- Python
-- Biblioteca Pillow
-- Git e GitHub
+- Certifique-se de colocar as imagens na pasta correta (`letras/`). 
+- Cuidado com os fundos da imagem, recomendado todas terem a mesma cor pra quando concatenar as fotos não ficar destoante.
+- 
 
 ---
 
 ## 📜 Licença
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-## ✨ Créditos
-Feito com ❤️ por [Seu Nome](https://github.com/seuusuario).  
+O pasta "letras", que já contém os símbolos teste, foram obtidos no google, pode ser que tenha licença, recomendo usá-los para intuito de aprendizado.
