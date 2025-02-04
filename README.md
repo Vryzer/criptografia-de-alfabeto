@@ -27,4 +27,4 @@
 
 ## 📜 Licença
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-O pasta "letras", que já contém os símbolos teste, foram obtidos no google, pode ser que tenha licença, recomendo usá-los para intuito de aprendizado.
+A pasta "letras", que já contém os símbolos teste, foram obtidos no google, pode ser que tenha licença, recomendo usá-los para intuito de aprendizado.
