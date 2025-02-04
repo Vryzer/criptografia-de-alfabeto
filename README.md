@@ -1,4 +1,4 @@
-# Nome do Projeto 🚀
+# Programa para criptografar mensagens! 🚀
 
 > Um programa que converte textos para uma linguagem criptografada personalizada usando imagens. O código já vem com a pasta "letras", contendo exemplos de imagens para servir como símbolo de cada letra além do PNG "texto_criptografado.png" como exemplo de output. O intuito é o usuário escolher os próprios símbolos e adicionar no lugar.
 
