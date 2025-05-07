@@ -1,39 +1,22 @@
 from PIL import Image
 import os
+import string
 
-# Dicionário com o caminho correto das imagens na pasta 'letras'
-mapa_criptografia = {
-    "a": "letras/Acriptografado.png",
-    "b": "letras/Bcriptografado.png",
-    "c": "letras/Ccriptografado.png",
-    "d": "letras/Dcriptografado.png",
-    "e": "letras/Ecriptografado.png",
-    "f": "letras/Fcriptografado.png",
-    "g": "letras/Gcriptografado.png",
-    "h": "letras/Hcriptografado.png",
-    "i": "letras/Icriptografado.png",
-    "j": "letras/Jcriptografado.png",
-    "k": "letras/Kcriptografado.png",
-    "l": "letras/Lcriptografado.png",
-    "m": "letras/Mcriptografado.png",
-    "n": "letras/Ncriptografado.png",
-    "o": "letras/Ocriptografado.png",
-    "p": "letras/Pcriptografado.png",
-    "q": "letras/Qcriptografado.png",
-    "r": "letras/Rcriptografado.png",
-    "s": "letras/Scriptografado.png",
-    "t": "letras/Tcriptografado.png",
-    "u": "letras/Ucriptografado.png",
-    "v": "letras/Vcriptografado.png",
-    "w": "letras/Wcriptografado.png",
-    "x": "letras/Xcriptografado.png",
-    "y": "letras/Ycriptografado.png",
-    "z": "letras/Zcriptografado.png",
-    " ": "letras/ESPACOcriptografado.png",
-    "ç": "letras/Çcriptografado.png",
-    ",": "letras/VIRGULAcriptografado.png",
-    ".": "letras/PONTOFINALcriptografado.png"
-}
+def criar_mapa_criptografia():
+    mapa_cripto = {}
+    caracteres_especiais = {
+        ' ':'ESPACO',
+        'ç':'Ç',
+        ',':'VIRGULA',
+        '.':'PONTOFINAL'
+    }
+    for letra in string.ascii_uppercase:
+        mapa_cripto[letra.lower()] = f"letras/{letra.upper()}criptografado.png"
+    for char, prefixo in caracteres_especiais.items():
+        mapa_cripto[char] = f"letras/{prefixo}criptografado.png"
+    return mapa_cripto
+
+mapa_criptografia = criar_mapa_criptografia()
 
 def criar_png(texto):
     imagens = []
@@ -90,3 +73,4 @@ def criar_png(texto):
 # Exemplo: texto de entrada
 entrada_usuario = input("Digite o texto para criptografar: ")
 criar_png(entrada_usuario)
+
