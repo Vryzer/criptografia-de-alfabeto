@@ -28,3 +28,4 @@
 ## 📜 Licença
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 A pasta "letras", que já contém os símbolos teste, foram obtidos no google, pode ser que tenha licença, recomendo usá-los para intuito de aprendizado.
+(https://www.pinterest.com/pin/violet-witchcraft-elementarium--588282770051530971/)
